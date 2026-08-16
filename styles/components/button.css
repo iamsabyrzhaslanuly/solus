@@ -1,0 +1,22 @@
+.button {
+  padding-inline: 40px;
+  height: var(--button-height);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color: var(--color-light);
+  background-color: var(--color-dark-green);
+  border: 1px solid var(--color-dark-green);
+  border-radius: 100px;
+
+  &:hover,
+  &.transparent {
+    color: var(--color-dark-green);
+    background-color: transparent;
+  }
+
+  &.transparent:hover {
+    color: var(--color-light);
+    background-color: var(--color-dark-green);
+  }
+}
