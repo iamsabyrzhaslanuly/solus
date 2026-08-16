@@ -1,0 +1,20 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 60px 50px;
+}
+
+.header-left-menu-list,
+.header-right-menu-list {
+  display: flex;
+  column-gap: 70px;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
