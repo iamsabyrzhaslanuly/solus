@@ -16,6 +16,13 @@ svg * {
   transition-duration: var(--transition-duration);
 }
 
+a,
+button {
+  &:active {
+    scale: 0.97;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -23,18 +30,11 @@ a {
   &:hover {
     opacity: 0.8;
   }
-
-  &:active {
-    opacity: 0.6;
-  }
-}
-
-button:active {
-  scale: 0.97;
 }
 
 h1, h2 {
   font-weight: 700;
+  line-height: 1.2;
   letter-spacing: 0.01em;
 }
 
