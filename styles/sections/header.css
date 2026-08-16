@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 60px 50px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
 }
 
 .header-left-menu-list,
@@ -12,9 +14,41 @@
   column-gap: 70px;
 }
 
-.header-logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
+@media (max-width: 1280px) {
+  .header {
+    padding-block: 40px;
+  }
+
+  .header-left-menu-list,
+  .header-right-menu-list {
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header-logo {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 40px;
+  }
+
+  .header-logo {
+    position: relative;
+    order: -1;
+    flex-basis: 100%;
+  }
+
+  .header-logo-image {
+    position: relative;
+    left: 50%;
+    translate: -50%;
+  }
 }
