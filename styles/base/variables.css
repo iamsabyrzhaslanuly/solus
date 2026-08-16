@@ -1,0 +1,20 @@
+:root {
+  --color-light: #fff;
+  --color-light-muted: #f7f6f4;
+  --color-light-accent: #f9e6d0;
+  --color-dark-gray: #00373e;
+
+  --border-radius-70: 70px;
+  --border-radius-60: 60px;
+  --border-radius-50: 50px;
+  --border-radius-30: 30px;
+
+  --font-family-base: 'Bricolage Grotesque', sans-serif;
+
+  --button-height: 54px;
+
+  --container-width: 1240px;
+  --container-padding-x: 15px;
+
+  --transition-duration: 0.2s;
+}
