@@ -56,3 +56,9 @@ h3, .h3 {
   color: var(--color-light);
   background-color: var(--color-dark-green);
 }
+
+:focus-visible {
+  outline: 2px dashed var(--color-dark-green);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
