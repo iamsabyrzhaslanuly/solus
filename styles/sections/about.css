@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 37px;
+  max-width: 476px;
+}
+
+.about-badge {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+.about-image {
+  border-radius: var(--border-radius-60);
+}
