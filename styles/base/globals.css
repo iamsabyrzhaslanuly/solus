@@ -43,7 +43,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 52px;
+  font-size: clamp(36px, 3.61vw, 52px);
 }
 
 h3, .h3 {
