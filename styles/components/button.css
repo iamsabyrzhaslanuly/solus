@@ -1,4 +1,6 @@
 .button {
+  display: inline-flex;
+  align-items: center;
   padding-inline: 40px;
   height: var(--button-height);
   font-weight: 600;
