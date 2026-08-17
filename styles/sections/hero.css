@@ -27,6 +27,10 @@
 }
 
 @media (max-width: 767px) {
+  .hero {
+    min-height: 80dvh;
+  }
+
   .hero-inner {
     min-height: 460px;
     border-radius: var(--border-radius-50);
