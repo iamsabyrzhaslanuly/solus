@@ -22,3 +22,36 @@
 .about-image {
   border-radius: var(--border-radius-60);
 }
+
+@media (max-width: 1280px) {
+  .about-image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-body {
+    row-gap: 27px;
+  }
+
+  .about-image {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    flex-direction: column-reverse;
+    row-gap: 40px;
+  }
+
+  .about-body {
+    align-items: center;
+    row-gap: 17px;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 80%;
+  }
+}
