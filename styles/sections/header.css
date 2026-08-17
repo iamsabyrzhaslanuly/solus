@@ -41,14 +41,13 @@
   }
 
   .header-logo {
-    position: relative;
     order: -1;
     flex-basis: 100%;
+    justify-content: center;
   }
 
   .header-logo-image {
-    position: relative;
-    left: 50%;
-    translate: -50%;
+    position: static;
+    translate: none;
   }
 }
